@@ -1,4 +1,4 @@
-# Quiz Board
+# Pig Dice
 
  #### By **Francis Mwangi**
 ### Getting Started
@@ -17,7 +17,7 @@ There are no known bugs at this point but if found please reach out to me on abc
 * JavaScript
 * jquery
 ### License
-This project is licensed under the MIT License.Copyright (c) {2018}
+This project is licensed under the MIT License.Copyright (c)2018
 
 ## Acknowledgments
-Hat tip to the people at MDN Web Docs whose fantastic tutorials enabled me to make sense of most of this project, to my peer programmer of the week and to Moringa School for getting me this far.
+Hat tip to the people at MDN Web Docs whose fantastic tutorials enabled me to make sense of most of this project and to Moringa School for getting me this far.
