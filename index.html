@@ -5,48 +5,45 @@
   <meta charset="utf-8">
   <meta charset="utf-8">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="css/css.styles">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>Pig Dice</title>
 </head>
 
 <body background="/dice.jpg">
   <h1>LETS PLAY PIG!</h1>
-  <ul>
-    <p>For those of you new to the game the rules are simple.</p>
-    <p>The objective of the game is to get at or over 100 points before the other player does.</p>
-    <li>You get points by taking turns. In each turn, you repeatedly roll a die until either a 1 is rolled or the player passes and scores the sum of the rolls from that turn(i.e. the turn total).</li>
-    <li>At any time during a player's turn, the player is faced with two options:
-      roll - If the player rolls a 1: the player scores nothing for the turn and it becomes the next player's turn.
-      roll any other number: the number is added to the player's turn total and the player's turn continues.
-      pass - The turn total is added to the player's total score and it becomes the next player's turn.</li>
-    <li>The first player to score 100 or more points wins the game!</li>
-  </ul>
   <div class="container">
-    <div class="playerOne">
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Player One</h3>
-        <h3>Roll the dice</h3>
-        <h3>Your current score is </h3>
+
+    <div class="gamers" id="playerOne">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Player One</h3>
+          <button id="roller1" type="button">Roll dice</button>
+          <h3>Your current roll is</h3><input id="roll1" type="number">
+          <h3>Your current result is</h3><input id="result1" type="text">
+          <h3>Your total score is </h3><input id="score1" type="text">
+        </div>
+
+        <div class="gamers" id="playerTwo">
+          <div class="col-md-6">
+            <h3>Player Two</h3>
+            <button id="roller2" type="button">Roll dice</button>
+            <h3>Your current roll is</h3><input id="roll2" type="text">
+            <h3>Your current result is</h3><input id="result2" type="text">
+            <h3>Your total score is </h3><input id="score2" type="text">
+          </div>
+        </div>
       </div>
 
-    <div class="diceRoll">
-      <div class="col-md-4">
-        <h3> ROLL DICE</h3>
-        <h3>Current dice roll is </h3>
-        <h3>Pass turn</h3>
-      </div>
-    </div>
-
-    <div class="playerTwo">
-      <div class="col-md-4">
-        <h3>Player Two</h3>
-        <h3>Roll the dice</h3>
-        <h3>Your current score is </h3>
+      <div class="diceRoll">
+        <div class="row">
+          <div class="col-md-12">
+            <button type="button" onclick="passTurn()">Pass turn</button>
+            <h3 id="winner">You won!</h3> display=none
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </body>
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/dice.js"></script>
