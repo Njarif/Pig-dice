@@ -20,7 +20,7 @@ PlayGame.prototype.total = function() {
 }
 
 var roll = function() {
-  return Math.floor(Math.random() * 6) + 1;
+  return Math.floor(Math.random() * 6) + 1;// returns a random integer from 1 to 6
 }
 $(document).ready(function() {
   playerOne = new PlayGame(true);
