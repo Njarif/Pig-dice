@@ -8,12 +8,8 @@ body {
 h1 {
   text-align: center;
 }
-#playerOne{
-  text-align:center;
-
-}
-#playerTwo{
-  text-align:center;
+.gamers{
+  text-align: center;
 }
 .diceRoll {
   text-align: center;
