@@ -16,7 +16,6 @@ The web page has a two player option, player one and player two. Each of the pla
 |  User 1 rolls a 1.                         | They loose the total score of their current turn and user 2 gets to play.|
 |  Any one of the users holds the game       | The turn automatically goes to the next player.                          |
 |  Any of the users gets 100 points          | They user automatically wins the game.                                   |
-|                                            |                                          |
 ## Known Bugs
 As of now the hold option of the game doesn't quite work yet. The game also can't detect when a user gets to a 100 points (at this point it should declare that user the winner) but but I am working on both this errors and will fix them soon.
 ## Built With
