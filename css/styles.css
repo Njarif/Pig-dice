@@ -3,22 +3,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 20px;
-  color:#006400;
+  color: #006400;
 }
+
 h1 {
   text-align: center;
 }
-.gamers{
+
+.gamers {
   text-align: center;
 }
+
 .diceRoll {
   text-align: center;
 }
+
 //.gamers {
-  float: left;
-  width: 32px;
-  background: f5f5f5;
-  padding: 10px;
-  font-size: 24px;
-  text-align: center;
-  margin: 5px
+float: left;
+width: 32px;
+background: f5f5f5;
+padding: 10px;
+font-size: 24px;
+text-align: center;
+margin: 5px
